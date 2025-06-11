@@ -1,0 +1,49 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 80%;
+  margin: 15px auto;
+}
+.title {
+  margin-bottom: 20px;
+}
+
+#category,
+#idInput {
+  min-width: 23%;
+  margin-right: 5px;
+  padding: 10px 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+[placeholder] {
+  font-family: Arial;
+  font-size: 15px;
+  color: #000;
+}
+
+#fetchBtn {
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  background-color: #ce3655;
+  border: 2px solid #ce3655;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+#loadingMessage {
+  color: orange;
+}
+#result {
+  color: green;
+}
+#error {
+  color: red;
+}
